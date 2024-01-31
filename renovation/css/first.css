@@ -1,0 +1,400 @@
+.te {
+    z-index: 1030;
+
+
+}
+
+
+.hsection {
+    background-color: #1E152A;
+}
+
+.slide1 {
+    height: 100vh;
+    min-height: 200px;
+    background-repeat: no-repeat scroll center scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.sec2 {}
+
+.dd {
+    max-height: 220px;
+}
+
+.box1 {
+    box-shadow: rgb(249, 247, 247) 0px 5px 15px;
+}
+
+.box1:hover {
+    box-shadow: rgb(11, 11, 11) 0px 5px 15px;
+    color: blue;
+}
+
+.footer1 {
+    background-color: #666;
+}
+
+.sec3 {
+    height: 200px;
+}
+
+.img89 {
+    /* box-shadow: rgb(148, 147, 147) 0px 5px 15px; */
+}
+
+.iconp1 {
+    padding: 50px;
+}
+
+.i1 {
+    font-size: 30px;
+}
+
+section {
+    width: 100%;
+    display: inline-block;
+    background: #333;
+    height: 50vh;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+/* .g{
+    color:blue;
+    font-size: 50px;
+}
+.o{
+   color: red;
+   font-size: 50px;
+}
+.o2{
+    color: orange;
+    font-size: 50px;
+    }
+.g2{
+    color: blue;
+    font-size: 50px;
+}
+.l{
+    color: green;
+    font-size: 50px;
+}
+.e{
+color:red;
+font-size: 50px;
+} */
+
+
+
+.footer-distributed {
+    background: #666;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 55px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+    width: 40%;
+}
+
+
+/* The company logo */
+
+.footer-distributed h3 {
+    color: #ffffff;
+    font: normal 36px 'Open Sans', cursive;
+    margin: 0;
+}
+
+.footer-distributed h3 span {
+    color: lightseagreen;
+}
+
+
+/* Footer links */
+
+.footer-distributed .footer-links {
+    color: #ffffff;
+    margin: 20px 0 12px;
+    padding: 0;
+}
+
+.footer-distributed .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    font-weight: 400;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+    color: #222;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+
+/* Footer Center */
+
+.footer-distributed .footer-center {
+    width: 35%;
+}
+
+.footer-distributed .footer-center i {
+    background-color: #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+    display: inline-block;
+    color: #ffffff;
+    font-weight: 400;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+    color: lightseagreen;
+    text-decoration: none;
+    ;
+}
+
+.footer-distributed .footer-links a:before {
+    content: "|";
+    font-weight: 300;
+    font-size: 20px;
+    left: 0;
+    color: #fff;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+    content: none;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+    width: 20%;
+}
+
+.footer-distributed .footer-company-about {
+    line-height: 20px;
+    color: #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+    display: block;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+    margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+
+/* 
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+} */
+/* google review section start */
+
+.review-star-box {
+    margin-top: 5px;
+    margin-left: 10px;
+  }
+  .review-star-box .review-star {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin-right: 1px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url();
+  }
+  
+  .verified-review {
+    display: inline-block;
+    background: url();
+    background-size: contain;
+    width: 15px;
+    height: 15px;
+    margin-left: 7px;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .review-header {
+    display: flex;
+    align-items: center;
+  }
+  .review-header .review-profile-img {
+    margin-right: 15px;
+  }
+  .review-header .review-profile-img img {
+    width: 40px;
+    height: 40px;
+    padding: 0px;
+    display: block;
+    border-radius: 30px;
+    object-fit: cover;
+    object-position: top;
+  }
+  .review-profile-details {
+    position: relative;
+  }
+  .review-profile-details .review-name {
+    font-weight: bold;
+    font-size: 15px;
+    overflow: hidden;
+    padding-right: 25px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #000000;
+    margin-bottom: 2px;
+    width: 200px;
+  }
+  
+  .review-profile-details::after {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    right: 0px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url();
+    background-size: 100% 100%;
+  }
+  .review-mgs-content {
+    max-height: 100px;
+    min-height: 100px;
+    overflow-y: auto;
+    margin-top: 10px;
+  }
+  .review-mgs-content p {
+    font-size: 15px;
+    padding-right: 10px;
+  }
+  
+  .review-mgs-content::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  .review-mgs-content::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  .review-mgs-content::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    /* outline: 1px solid slategrey; */
+  }
+  
+  #review-carousel .owl-nav {
+    position: absolute;
+    top: -72px;
+    right: 65px;
+  }
+  
+  #review-carousel .owl-nav .owl-prev,
+  #review-carousel .owl-nav .owl-next {
+    width: 35px;
+    height: 35px;
+    background-color: #00bcd4;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+  }
+  #review-carousel .owl-nav .owl-prev {
+    margin-right: 1px;
+  }
+  
+  .review-section {
+    margin-bottom: 80px;
+  }
+  /* google review section end */
+  
